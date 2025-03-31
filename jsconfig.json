@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      },
+      "jsx": "preserve" // Important for Next.js
+    },
+    "include": ["src/**/*", "next-env.d.ts"], // Adjust as needed
+    "exclude": ["node_modules"]
+  }
